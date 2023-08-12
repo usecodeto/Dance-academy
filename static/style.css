@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar ul{
+    background-color: #FFC107;
+    color: white;
+    height: 40px;
+    display: flex;
+    font-weight: bold;
+}
+
+#navbar li{
+    list-style: none;
+    margin: 10px;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+#introSection{
+    height:45vh;
+    background: center / cover no-repeat url(../static/img.jpeg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.big{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.small{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#missionSection{
+
+    height: 45vh;
+}
+
+#missionSection h2{
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 600;
+}
+.missionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 22px;
+    height: 178px;
+    width: 26%;
+    margin: 20px;
+}
+
+.card h3{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img{
+    height: 150px;
+}
+.card-img img{
+    height: inherit;
+    
+}
+#sponsorSection{
+    background-color: #efd485eb;
+    height: 45vh;
+    text-align: center;
+    font-size: 6vh;
+    font-weight: 600;
+    padding-top: 20vh;
+}
+#footer{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    text-align: center;
+    padding: 6px;
+
+}

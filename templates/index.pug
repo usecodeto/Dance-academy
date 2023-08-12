@@ -1,0 +1,53 @@
+//- index.pug
+doctype html
+html
+  head
+    title Harry Dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            li #[a(href ='/') Home]
+            li #[a(href ='/') About ]
+            li #[a(href ='/') Join Us ]
+            li #[a(href ='/contact') Contact Us]
+
+    section#introSection
+        div.big Welcome to harry's dance classes 
+        div.small eat sleep dance repeat 
+        
+    section#missionSection
+      h2 Our Mission
+      div.missionContainer
+        div.card
+          h3 Dance perfection
+          div.card-box
+            div.card-img
+              img(src ="../static/1.png")
+            div.card-content
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda totam fugit odio qui libero officia.
+        div.card
+          h3 Dance the way you like
+          div.card-box
+            div.card-img
+              img(src ="../static/2.png")
+            div.card-content
+              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. In fuga quasi, dolorem architecto maiores hic?
+        div.card
+          h3 Expert Teaching
+          div.card-box
+            div.card-img
+              img(src ="../static/3.png")
+            div.card-content
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas blanditiis iste molestias! Libero, atque labore.
+
+       
+
+    section#sponsorSection
+        | section for sponsers 
+
+    footer#footer 
+        | our footer here            
+    script
+      include ../static/index.js

@@ -1,0 +1,17 @@
+{
+  "name": "danceacademy",
+  "version": "1.0.0",
+  "description": "this is best dance class",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nothing"
+  ],
+  "author": "harry hatela",
+  "license": "ISC",
+  "dependencies": {
+
+  }
+}

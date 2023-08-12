@@ -1,0 +1,25 @@
+extends base.pug
+
+block scripts 
+    script
+      include ../static/index.js
+
+block style
+    style
+      include ../static/style.css
+      include ../static/styleContact.css
+
+block content 
+    div.contacts
+        h1 Contact Us
+        form(action="/", method="post").form-box
+            input(class="input-box" type, name="name" ,placeholder="Name" required) 
+            input(class="input-box" type="number", name="mobile", placeholder="Mobile" required)
+            input(class="input-box" type="text", name="email", placeholder="Email"  required)
+            input(class="input-box" type="text", name="qualifications", placeholder="Qualifications" required)
+            label(for="fileUpload" class="fileUpload") Upload Cover Letter :                 
+                input( type="file", name="fileUpload1"  required)
+            input(class="input-box" type="text", name="availability" placeholder="Availability"  required)
+            label(for="fileUpload" class="fileUpload") Upload Assement assets :                
+                input( type="file", name="fileUpload2" required)
+            button( id ='btn' class="btn" ) Submit
